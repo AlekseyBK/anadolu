@@ -319,12 +319,6 @@ input[type="search"]::-webkit-search-results-decoration {
     position: absolute;
     top: 16px;
 }
-.anadolu_button.anadolu_prev {
-    margin-left: 10px;
-}
-.anadolu_button.anadolu_next {
-    margin-right: 10px;
-}
 .anadolu_button.anadolu_prev .anadolu_arrow {
     transform: rotate(225deg);
     left: 19px;
