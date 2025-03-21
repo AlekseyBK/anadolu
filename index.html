@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anadolu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header id="anadolu_header">
+        <!-- notice -->
+        <div id="anadolu_notice">
+            <p class="anadolu_notice-text">Azərbaycan Respublika ərazi üzrə 100 azn-dən yuxarı olan sifarişlərə PULSUZ çatdırılma!</p>
+        </div>
+
+        <!-- menu -->
+        <div class="anadolu_menu-wrapper">
+            <div id="anadolu_menu">
+                <!-- logo -->
+                <a href="https://shoppingaz.az/" class="anadolu_logo-link anadolu_menu-block" aria-label="lorem ipsum">
+                    <img src="img/logo-old.svg" alt="logo" class="anadolu_logo">
+                </a>
+    
+                <!-- translation -->
+                <div class="anadolu_translation anadolu_menu-block">
+                    <a href="https://shoppingaz.az/" class="anadolu_translation-link" aria-label="lorem ipsum">
+                        <img src="img/az-icon.svg" alt="az-icon" class="anadolu_translation-icon">
+                    </a>
+                    <a href="https://shoppingaz.az/ru/" class="anadolu_translation-link" aria-label="lorem ipsum">
+                        <img src="img/ru-icon.svg" alt="ru-icon" class="anadolu_translation-icon">
+                    </a>
+                    <a href="https://shoppingaz.az/en/" class="anadolu_translation-link" aria-label="lorem ipsum">
+                        <img src="img/en-icon.svg" alt="en-icon" class="anadolu_translation-icon">
+                    </a>
+                </div>
+    
+                <!-- menu-buttons -->
+                 <div class="anadolu_menu-buttons anadolu_menu-block">
+                    <div class="anadolu_search">
+                        <form role="search" method="get" id="anadolu_search-form" action="https://shoppingaz.az/">
+                            <input type="search" class="anadolu_search-field" placeholder="Axtarış ..." value="" name="s">
+                        </form>
+                        <button id="anadolu_search-button" class="anadolu_link-wrapper">
+                            <img src="img/search.svg" alt="search-icon" class="anadolu_search-icon anadolu_menu-icon">
+                        </button>
+                    </div>
+                    <a href="https://shoppingaz.az/sebet/" class="anadolu_cart-link anadolu_link-wrapper" aria-label="lorem ipsum">
+                        <img src="img/shopping-cart.svg" alt="cart-icon" class="anadolu_cart-icon anadolu_menu-icon">
+                    </a>
+                    <a href="https://shoppingaz.az/menim-hesabim/" class="anadolu_user-link anadolu_link-wrapper" aria-label="lorem ipsum">
+                        <img src="img/user.svg" alt="user-icon" class="anadolu_user-icon anadolu_menu-icon">
+                    </a>
+                 </div>
+            </div>
+        </div>
+
+        <!-- navigation -->
+        <div class="anadolu_navigation-wrapper">
+            <ul id="anadolu_navigation">
+                <li class="anadolu_navigation-item">
+                    <a href="https://shoppingaz.az/" class="anadolu_navigation-link" aria-label="lorem ipsum">Ana səhİfə</a>
+                </li>
+                <li class="anadolu_navigation-item">
+                    <a href="https://shoppingaz.az/butun-kateqoriyalar/" class="anadolu_navigation-link" aria-label="lorem ipsum">Kateqorİyalar</a>
+                </li>
+                <li class="anadolu_navigation-item">
+                    <a href="https://shoppingaz.az/endirimler/" class="anadolu_navigation-link" aria-label="lorem ipsum">Endİrİmlər</a>
+                </li>
+                <li class="anadolu_navigation-item anadolu_soon">
+                    <a class="anadolu_navigation-link" aria-label="lorem ipsum">Sevİmlİlər</a>
+                    <div class="anadolu_soon-block">
+                        <span>təzlİklə</span>
+                    </div>
+                </li>
+                <li class="anadolu_navigation-item">
+                    <a href="https://shoppingaz.az/haqqimizda/" class="anadolu_navigation-link" aria-label="lorem ipsum">Haqqımızda</a>
+                </li>
+                <li class="anadolu_navigation-item">
+                    <a href="https://shoppingaz.az/elaqe/" class="anadolu_navigation-link" aria-label="lorem ipsum">Əlaqə</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- MOBILE MENU -->
+    <div class="anadolu_mobile-menu">
+        <div class="anadolu_mobile-search-container">
+            <form role="search" method="get" id="anadolu_mobile-search-form" action="https://shoppingaz.az/">
+                <img src="img/search.svg" alt="search-icon" class="anadolu_mobile-menu-search-icon">
+                <input type="search" class="anadolu_mobile-search-field" placeholder="Məhsulları axtar..." value="" name="s">
+            </form>
+        </div>
+        <div class="anadolu_mobile-buttons-container">
+            <a href="https://shoppingaz.az/menim-hesabim/" class="anadolu_mobile-link" aria-label="lorem ipsum">
+                <img src="img/mobile-user.svg" alt="user-icon" class="anadolu_mobile-icon">
+            </a>
+            <button class="anadolu_mobile-search-btn">
+                <img src="img/mobile-search.svg" alt="search-icon" class="anadolu_mobile-icon">
+            </button>
+            <a href="https://shoppingaz.az/sebet/" class="anadolu_mobile-link anadolu_mobile-link-cart" aria-label="lorem-ipsum">
+                <img src="img/mobile-cart.svg" alt="cart-icon" class="anadolu_mobile-icon">
+                <span class="anadolu_mobile-cart-count">0</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- SLIDER -->
+    <div class="anadolu_slider">
+        <!-- Слайды -->
+        <div class="anadolu_slides">
+            <!-- slide with link -->
+            <div class="anadolu_slide" data-link="https://shoppingaz.az/novruz-choise/" data-aria-label="lorem ipsum">
+                <img src="https://shoppingaz.az/static/img/az/slider/12.webp" class="anadolu_img" alt="anadolu-slide">
+            </div>
+            <!-- slide -->
+            <div class="anadolu_slide">
+                <img src="https://shoppingaz.az/static/img/az/slider/0.webp" class="anadolu_img" alt="anadolu-slide">
+            </div>
+
+        </div>
+
+        <!-- Кнопки навигации -->
+        <div class="anadolu_button-block anadolu_button-block-prev">
+            <button class="anadolu_button anadolu_prev">
+                <div class="anadolu_arrow"></div>
+            </button>
+        </div>
+        
+        <div class="anadolu_button-block anadolu_button-block-next">
+            <button class="anadolu_button anadolu_next">
+                <div class="anadolu_arrow"></div>
+            </button>
+        </div>
+
+        <!-- Пагинация -->
+        <div class="anadolu_pagination"></div>
+    </div>
+
+    <footer id="anadolu_footer">
+        <div class="anadolu_footer-links anadolu_footer-block">
+            <div class="anadolu_footer-container">
+                <div class="anadolu_footer-lists">
+                    <ul class="anadolu_footer-list">
+                        <li class="anadolu_footer-list-heading">Əlaqə</li>
+                        <li class="anadolu_footer-list-item">
+                            <a href="tel:+994102524600" class="anadolu_footer-link" aria-label="lorem ipsum">+994 10 252 46 00</a>
+                        </li>
+                        <li class="anadolu_footer-list-item">
+                            <a href="mailto:office@shoppingaz.az" class="anadolu_footer-link" aria-label="lorem ipsum">office@shoppingaz.az</a>
+                        </li>
+                        <li>
+                            <div class="anadolu_social-media">
+                                <a href="https://www.instagram.com/" target="_blank" class="anadolu_social-link" aria-label="lorem ipsum">
+                                    <img src="img/instagram.webp" alt="instagram-icon" class="anadolu_social-icon">
+                                </a>
+                                <a href="https://www.tiktok.com/" target="_blank" class="anadolu_social-link" aria-label="lorem ipsum">
+                                    <img src="img/tiktok.webp" alt="tiktok-icon" class="anadolu_social-icon">
+                                </a>
+                                <a href="https://www.facebook.com/" target="_blank" class="anadolu_social-link" aria-label="lorem ipsum">
+                                    <img src="img/facebook.webp" alt="facebook-icon" class="anadolu_social-icon">
+                                </a>
+                                <a href="https://www.youtube.com/" target="_blank" class="anadolu_social-link" aria-label="lorem ipsum">
+                                    <img src="img/youtube.webp" alt="youtube-icon" class="anadolu_social-icon">
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="anadolu_footer-list">
+                        <li class="anadolu_footer-list-heading">Şirkət</li>
+                        <li class="anadolu_footer-list-item">
+                            <a href="https://shoppingaz.az/" class="anadolu_footer-link" aria-label="lorem ipsum">Ana səhifə</a>
+                        </li>
+                        <li class="anadolu_footer-list-item">
+                            <a href="https://shoppingaz.az/haqqimizda/" class="anadolu_footer-link" aria-label="lorem ipsum">Haqqımızda</a>
+                        </li>
+                    </ul>
+                    <ul class="anadolu_footer-list">
+                        <li class="anadolu_footer-list-heading">Məlumat</li>
+                        <li class="anadolu_footer-list-item">
+                            <a href="https://shoppingaz.az/konfidensialliq-siyaseti/" class="anadolu_footer-link" aria-label="lorem ipsum">Konfidensiallıq siyasəti</a>
+                        </li>
+                        <li class="anadolu_footer-list-item">
+                            <a href="https://shoppingaz.az/geri-qaytarma-siyaseti/" class="anadolu_footer-link" aria-label="lorem ipsum">Geri qaytarma siyasəti</a>
+                        </li>
+                    </ul>
+                    <ul class="anadolu_footer-list">
+                        <li class="anadolu_footer-list-heading">Müştərilər üçün</li>
+                        <li class="anadolu_footer-list-item">
+                            <a href="https://shoppingaz.az/sikayetlerin-idareolunma-siyaseti/" class="anadolu_footer-link" aria-label="lorem ipsum">Şikayətlərin idarə siyasəti</a>
+                        </li>
+                        <li class="anadolu_footer-list-item">
+                            <a href="https://shoppingaz.az/catdirilma-ve-odeme/" class="anadolu_footer-link" aria-label="lorem ipsum">Çatdırılma və ödəmə</a>
+                        </li>
+                        <li class="anadolu_footer-list-item">
+                            <a href="https://shoppingaz.az/istifade-qaydalari/" class="anadolu_footer-link" aria-label="lorem ipsum">İstifadə qaydaları</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="anadolu_footer-bottom anadolu_footer-block">
+            <div class="anadolu_footer-bottom-container">
+                <p class="anadolu_footer-bottom-text">Müəllif hüququ © 2025 “SHOPPİNGAZ" MMC, 2025. <span class="anadolu_voen">VÖEN: 
+                    <a href="https://www.e-taxes.gov.az/ebyn/payerOrVoenChecker.jsp" target="_blank" class="anadolu_voen-link" aria-label="lorem ipsum">1703689661</a>.</span>
+                </p>
+                <div class="anadolu_footer-payment">
+                    <img src="img/visa.webp" alt="visa-icon" class="anadolu_footer-payment-icon">
+                    <img src="img/mastercard.webp" alt="mastercard-icon" class="anadolu_footer-payment-icon">
+                    <img src="img/maestro.webp" alt="maestro-icon" class="anadolu_footer-payment-icon">
+                    <img src="img/google-pay.webp" alt="google-pay-icon" class="anadolu_footer-payment-icon">
+                    <img src="img/apple-pay.webp" alt="apple-pay-icon" class="anadolu_footer-payment-icon">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
