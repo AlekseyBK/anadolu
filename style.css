@@ -476,6 +476,9 @@ input[type="search"]::-webkit-search-results-decoration {
     .anadolu_translation {
         justify-content: end;
     }
+    .anadolu_navigation-wrapper {
+        padding: 10px;
+    }
     .anadolu_mobile-menu {
         display: block;
     }
