@@ -467,6 +467,9 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 @media (max-width: 768px) {
+    .anadolu_menu-wrapper {
+        padding: 10px;
+    }
     .anadolu_menu-buttons {
         display: none;
     }
@@ -478,6 +481,9 @@ input[type="search"]::-webkit-search-results-decoration {
     }
     footer {
         margin-bottom: 5em;
+    }
+    .anadolu_footer-block {
+        padding: 10px;
     }
 }
 
